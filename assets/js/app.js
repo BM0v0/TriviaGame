@@ -171,7 +171,7 @@ $(document).ready(function(){
     function displayImage() {
         if(count === 0) {
             $("#image-holder").show();
-            $("#image-holder").html('<img src="assets/images/BrandonStark.gif>');
+            $("#image-holder").html('<img src="assets/images/BrandonStark.jpg>');
          }
         else if(count === 1) {
             $("#image-holder").show();

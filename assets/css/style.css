@@ -17,13 +17,23 @@ body {
 }
 
 img {
-	width: 400px;
-	height: 400px;
+	width: 800px;
+	height: 600px;
+}
+
+#question-holder,
+#choice-holder-1,
+#choice-holder-2,
+#choice-holder-3,
+#choice-holder-4,
+#answer-holder {
+  color: white;
+  font-size: 50px;
 }
 
 .btn { 
-  color: #ffffff; 
-  background-color: #B8A351; 
+  color: red; 
+  background-color: black; 
   border-color: #FFFFFF; 
 } 
  
@@ -32,9 +42,9 @@ img {
 .btn:active, 
 .btn.active, 
 .open .dropdown-toggle.btn { 
-  color: #ffffff; 
-  background-color: #000000; 
-  border-color: #FFFFFF; 
+  color: white; 
+  background-color: black; 
+  border-color: white; 
 } 
  
 .btn:active, 
@@ -42,6 +52,13 @@ img {
 .open .dropdown-toggle.btn { 
   background-image: none; 
 } 
+ #time-holder {
+   color: red;
+   font-family: cursive;
+   font-size: 20px;
+ }
+
+
  
 .btn.disabled, 
 .btn[disabled], 
@@ -58,11 +75,12 @@ fieldset[disabled] .btn:active,
 .btn.disabled.active, 
 .btn[disabled].active, 
 fieldset[disabled] .btn.active { 
-  background-color: #B8A351; 
-  border-color: #FFFFFF; 
+  background-color: black; 
+  border-color: white;
+  color: white; 
 } 
  
 .btn .badge { 
-  color: #B8A351; 
+  color: white; 
   background-color: #ffffff; 
 }
